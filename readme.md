@@ -69,12 +69,12 @@ pip install pytesseract Flask Pillow
 
 For demonstration purposes, here's an example KTP that can be used as input. This is an image file that will be base64-encoded and sent via the API.
 
-# ! [Sample KTP](/ss/sample-png.png)
+# ! [Sample KTP](/ss/sample-ktp.png)
 
 ## Testing the API with Postman
 
 Here are screenshots of testing the `ocr_ktp` API using Postman. Notice the JSON request body containing the base64-encoded KTP image, and the response containing the extracted data.
 
 **Postman Request & Respon:**
-[Postman OCR KTP Request](ss/1.png)
+[Postman OCR KTP Request](/ss/1.jpg)
 
