@@ -1,5 +1,5 @@
 
-# Mengotomatiskan Pendaftaran dengan AI: Solusi OCR KTP
+# Automatic Registration or Verication Using OCR KTP
 
 Automating registration and data verification processes using the power of Artificial Intelligence, specifically Optical Character Recognition (OCR). In many business scenarios today, customer onboarding often involves manual data entry from identity documents like ID cards (KTPs), which is time-consuming and prone to errors. This solution aims to address these challenges.
 
