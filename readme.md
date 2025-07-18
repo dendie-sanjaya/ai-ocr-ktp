@@ -7,7 +7,7 @@ This project introduces an "AI Service for KTP OCR" designed to automatically ex
 
 ## Architecture Overview
 
-![ss](./design/architecture.png)
+![ss](./design/architecture.jpg)
 
 From the diagram above, you can see the main components that make up this system:
 
@@ -65,13 +65,17 @@ pip install pytesseract Flask Pillow
 
 ## Explore the Code
 
-## Sample KTP File
+### Sample KTP File
 
-For demonstration purposes, here's an example KTP that can be used as input. This is an image file that will be base64-encoded and sent via the API.
+![Script python app.py](./app.py)
+
+### Sample KTP File
+
+For demonstration purposes, here's an example KTP that can be used as input. This is an image file that will upload via API.
 
 ![Sample KTP](./ss/sample-ktp.png)
 
-## Testing the API with Postman
+### Testing the API with Postman
 
 Here are screenshots of testing the `ocr_ktp` API using Postman. Notice the JSON request body containing the base64-encoded KTP image, and the response containing the extracted data.
 
